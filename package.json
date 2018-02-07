@@ -1,0 +1,21 @@
+{
+  "name": "ocsen-diverter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "claudia create --region us-east-1 --api-module app --profile claudia",
+    "update": "claudia update --profile claudia",
+    "release": "claudia set-version --version production --profile claudia"
+  },
+  "author": "Michaela Elschner-Krüske",
+  "license": "ISC",
+  "devDependencies": {
+    "claudia": "^3.3.1"
+  },
+  "dependencies": {
+    "claudia-api-builder": "^3.0.2",
+    "moment": "^2.20.1"
+  }
+}

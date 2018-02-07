@@ -1,0 +1,11 @@
+{
+  "lambda": {
+    "role": "ocsen-diverter-executor",
+    "name": "ocsen-diverter",
+    "region": "us-east-1"
+  },
+  "api": {
+    "id": "c5zeg0u2bh",
+    "module": "app"
+  }
+}
